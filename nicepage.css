@@ -43152,7 +43152,7 @@ a.u-link.u-text-hover-grey-90:hover {
 }
 
 .u-header .u-menu-1 {
-  margin: 20px auto;
+  margin: 20px auto 0;
 }
 
 .u-header .u-nav-1 {
@@ -43165,7 +43165,11 @@ a.u-link.u-text-hover-grey-90:hover {
 
 
 
-
+@media (max-width: 575px) {
+  .u-header .u-menu-1 {
+    margin-bottom: 60px;
+  }
+}
  .u-footer {
   background-image: none;
 }
