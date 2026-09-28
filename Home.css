@@ -1285,7 +1285,7 @@
 }
 
 .u-section-4 .u-sheet-1 {
-  min-height: 100vh;
+  min-height: 1001px;
 }
 
 .u-section-4 .u-list-1 {
@@ -1490,14 +1490,14 @@
 }
 
 .u-section-5 .u-sheet-1 {
-  min-height: 945px;
+  min-height: 874px;
 }
 
 .u-section-5 .u-text-1 {
   font-family: "Finger Paint";
   font-size: 2.25rem;
   width: 495px;
-  margin: 10px auto 0;
+  margin: 0 auto;
 }
 
 .u-section-5 .u-text-2 {
@@ -1524,7 +1524,7 @@
 .u-section-5 .u-icon-3 {
   width: 46px;
   height: 46px;
-  margin: 241px auto 3px 0;
+  margin: 241px auto 0 0;
   padding: 0;
 }
 
@@ -1533,21 +1533,8 @@
     min-height: 1067px;
   }
 
-  .u-section-5 .u-text-1 {
-    margin-top: 20px;
-  }
-
   .u-section-5 .u-icon-1 {
-    margin-top: -673px;
     margin-right: 0;
-  }
-
-  .u-section-5 .u-icon-2 {
-    margin-top: 292px;
-  }
-
-  .u-section-5 .u-icon-3 {
-    margin-top: 240px;
   }
 }
 
@@ -1557,16 +1544,7 @@
   }
 
   .u-section-5 .u-icon-1 {
-    margin-top: -866px;
     margin-right: auto;
-  }
-
-  .u-section-5 .u-icon-2 {
-    margin-top: 385px;
-  }
-
-  .u-section-5 .u-icon-3 {
-    margin-top: 340px;
   }
 }
 
@@ -1575,16 +1553,8 @@
     min-height: 1662px;
   }
 
-  .u-section-5 .u-icon-1 {
-    margin-top: -1054px;
-  }
-
-  .u-section-5 .u-icon-2 {
-    margin-top: 482px;
-  }
-
-  .u-section-5 .u-icon-3 {
-    margin-top: 432px;
+  .u-section-5 .u-text-1 {
+    margin-top: 60px;
   }
 }
 
@@ -1596,6 +1566,7 @@
   .u-section-5 .u-text-1 {
     font-size: 1.5rem;
     width: auto;
+    margin-top: 20px;
     margin-left: 0;
     margin-right: 0;
   }
