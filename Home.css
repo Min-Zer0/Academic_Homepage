@@ -1166,7 +1166,7 @@
 }
 
 .u-section-3 .u-sheet-1 {
-  min-height: 791px;
+  min-height: 1212px;
 }
 
 .u-section-3 .u-group-1 {
@@ -1176,7 +1176,7 @@
   box-shadow: 22px 15px 20px 0 rgba(0,0,0,0.4);
   --radius: 50px;
   margin-top: 16px;
-  margin-bottom: 16px;
+  margin-bottom: 56px;
 }
 
 .u-section-3 .u-container-layout-1 {
@@ -1285,11 +1285,11 @@
 }
 
 .u-section-4 .u-sheet-1 {
-  min-height: 750px;
+  min-height: 100vh;
 }
 
 .u-section-4 .u-list-1 {
-  margin-top: 19px;
+  margin-top: 25px;
   margin-bottom: 0;
 }
 
@@ -1330,7 +1330,7 @@
   font-size: 1.875rem;
   font-family: "Tiro Gurmukhi";
   font-weight: normal;
-  margin: 20px 0 0;
+  margin: 19px 0 0;
 }
 
 .u-section-4 .u-icon-1 {
@@ -1347,9 +1347,16 @@
   padding: 0;
 }
 
+.u-section-4 .u-icon-3 {
+  width: 46px;
+  height: 46px;
+  margin: -576px auto 60px 0;
+  padding: 0;
+}
+
 @media (max-width: 1199px) {
   .u-section-4 .u-sheet-1 {
-    min-height: 820px;
+    min-height: 1118px;
   }
 
   .u-section-4 .u-text-1 {
@@ -1363,18 +1370,22 @@
   }
 
   .u-section-4 .u-icon-1 {
-    margin-top: -335px;
+    margin-top: -339px;
   }
 
   .u-section-4 .u-icon-2 {
-    margin-top: 243px;
-    margin-bottom: 19px;
+    margin-top: 247px;
+  }
+
+  .u-section-4 .u-icon-3 {
+    margin-top: -672px;
+    margin-bottom: 651px;
   }
 }
 
 @media (max-width: 991px) {
   .u-section-4 .u-sheet-1 {
-    min-height: 916px;
+    min-height: 1311px;
   }
 
   .u-section-4 .u-text-1 {
@@ -1387,17 +1398,22 @@
   }
 
   .u-section-4 .u-icon-1 {
-    margin-top: -382px;
+    margin-top: -390px;
   }
 
   .u-section-4 .u-icon-2 {
     margin-top: 290px;
   }
+
+  .u-section-4 .u-icon-3 {
+    margin-top: -768px;
+    margin-bottom: 60px;
+  }
 }
 
 @media (max-width: 767px) {
   .u-section-4 .u-sheet-1 {
-    min-height: 1108px;
+    min-height: 1610px;
   }
 
   .u-section-4 .u-text-1 {
@@ -1406,17 +1422,21 @@
   }
 
   .u-section-4 .u-icon-1 {
-    margin-top: -479px;
+    margin-top: -481px;
   }
 
   .u-section-4 .u-icon-2 {
-    margin-top: 387px;
+    margin-top: 381px;
+  }
+
+  .u-section-4 .u-icon-3 {
+    margin-top: -952px;
   }
 }
 
 @media (max-width: 575px) {
   .u-section-4 .u-sheet-1 {
-    min-height: 681px;
+    min-height: 859px;
   }
 
   .u-section-4 .u-repeater-1 {
@@ -1440,19 +1460,30 @@
 
   .u-section-4 .u-text-4 {
     font-size: 1rem;
+    margin-top: 20px;
   }
 
   .u-section-4 .u-icon-1 {
     width: 30px;
     height: 27px;
-    margin-top: -228px;
-    margin-left: 90px;
+    margin-top: -229px;
+    margin-left: 89px;
   }
 
   .u-section-4 .u-icon-2 {
     width: 30px;
     height: 30px;
-    margin: 171px 140px 60px auto;
+    margin-top: 172px;
+    margin-right: 140px;
+    margin-left: auto;
+  }
+
+  .u-section-4 .u-icon-3 {
+    width: 30px;
+    height: 30px;
+    margin-top: -454px;
+    margin-right: 143px;
+    margin-left: auto;
   }
 } .u-section-5 {
   background-image: none;
@@ -1499,7 +1530,11 @@
 
 @media (max-width: 1199px) {
   .u-section-5 .u-sheet-1 {
-    min-height: 1085px;
+    min-height: 1067px;
+  }
+
+  .u-section-5 .u-text-1 {
+    margin-top: 20px;
   }
 
   .u-section-5 .u-icon-1 {
@@ -1698,12 +1733,13 @@
 
 @media (max-width: 575px) {
   .u-section-6 .u-sheet-1 {
-    min-height: 611px;
+    min-height: 635px;
   }
 
   .u-section-6 .u-text-1 {
     font-size: 1.5rem;
-    width: 340px;
+    width: auto;
+    margin-top: 44px;
     margin-left: 0;
     margin-right: 0;
   }
@@ -1731,54 +1767,5 @@
     width: 30px;
     height: 30px;
     margin: 169px 140px 20px auto;
-  }
-} .u-section-7 {
-  background-image: none;
-}
-
-.u-section-7 .u-sheet-1 {
-  min-height: 350px;
-}
-
-.u-section-7 .u-text-1 {
-  font-family: "Finger Paint";
-  font-size: 2.25rem;
-  width: 495px;
-  margin: 2px auto 0;
-}
-
-.u-section-7 .u-text-2 {
-  font-size: 1.875rem;
-  font-family: "Tiro Gurmukhi";
-  margin: 19px 0 0;
-}
-
-.u-section-7 .u-icon-1 {
-  width: 46px;
-  height: 46px;
-  margin: -46px auto 50px 0;
-  padding: 0;
-}
-
-@media (max-width: 575px) {
-  .u-section-7 .u-text-1 {
-    font-size: 1.5rem;
-    width: auto;
-    margin-top: 29px;
-    margin-left: 0;
-    margin-right: 0;
-  }
-
-  .u-section-7 .u-text-2 {
-    font-size: 1rem;
-    margin-top: 9px;
-  }
-
-  .u-section-7 .u-icon-1 {
-    width: 30px;
-    height: 30px;
-    margin-top: -30px;
-    margin-bottom: 60px;
-    margin-left: 109px;
   }
 }
